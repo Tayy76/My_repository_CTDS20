@@ -1,0 +1,15 @@
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.csproj.AssemblyReference.cache
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.AssemblyInfoInputs.cache
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.AssemblyInfo.cs
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.csproj.CoreCompileInputs.cache
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\bin\Debug\net7.0\Questão_14.exe
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\bin\Debug\net7.0\Questão_14.deps.json
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\bin\Debug\net7.0\Questão_14.runtimeconfig.json
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\bin\Debug\net7.0\Questão_14.dll
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\bin\Debug\net7.0\Questão_14.pdb
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.dll
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\refint\Questão_14.dll
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.pdb
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\Questão_14.genruntimeconfig.cache
+C:\Users\Senai.CEPEAS21104025.000\Downloads\Questão_14\Questão_14\obj\Debug\net7.0\ref\Questão_14.dll
