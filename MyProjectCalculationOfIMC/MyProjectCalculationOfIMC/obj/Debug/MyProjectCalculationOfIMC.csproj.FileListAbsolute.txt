@@ -1,0 +1,11 @@
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\bin\Debug\MyProjectCalculationOfIMC.exe.config
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\bin\Debug\MyProjectCalculationOfIMC.exe
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\bin\Debug\MyProjectCalculationOfIMC.pdb
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.csproj.AssemblyReference.cache
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.Properties.Resources.resources
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.csproj.GenerateResource.cache
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.csproj.CoreCompileInputs.cache
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.exe
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.pdb
+C:\Users\Senai.CEPEAS21104030\Downloads\MyProjectCalculationOfIMC\MyProjectCalculationOfIMC\obj\Debug\MyProjectCalculationOfIMC.IMC.resources
