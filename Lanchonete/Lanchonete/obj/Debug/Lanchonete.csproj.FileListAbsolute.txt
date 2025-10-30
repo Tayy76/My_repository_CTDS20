@@ -1,0 +1,11 @@
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\bin\Debug\Lanchonete.exe.config
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\bin\Debug\Lanchonete.exe
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\bin\Debug\Lanchonete.pdb
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.csproj.AssemblyReference.cache
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.csproj.SuggestedBindingRedirects.cache
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.Form1.resources
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.Properties.Resources.resources
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.csproj.GenerateResource.cache
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.csproj.CoreCompileInputs.cache
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.exe
+D:\DANIELCTDS15\Bruno Manzoli\Lanchonete\Lanchonete\obj\Debug\Lanchonete.pdb
