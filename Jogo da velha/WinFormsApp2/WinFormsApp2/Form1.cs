@@ -406,7 +406,9 @@ namespace WinFormsApp2
             butt7.Text = "";
             butt8.Text = "";
             butt9.Text = "";
-
+            impate = 0;
+            pt1 = 0;
+            pt2 = 0;
         }
 
         private void pontuação1(object sender, EventArgs e)
@@ -491,15 +493,12 @@ namespace WinFormsApp2
             butt1.Text = "";
             butt2.Text = "";
             butt3.Text = "";
-            butt4.Text = ""; 
+            butt4.Text = "";
             butt5.Text = "";
             butt6.Text = "";
             butt7.Text = "";
             butt8.Text = "";
             butt9.Text = "";
-            impate = 0;
-            pt1 = 0;
-            pt2 = 0;
             xix = 0;
         }
 
@@ -540,6 +539,32 @@ namespace WinFormsApp2
             else
                 op2.ForeColor = Color.DarkRed;
             cor = 2;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            butt1.Enabled = true;
+            butt2.Enabled = true;
+            butt3.Enabled = true;
+            butt4.Enabled = true;
+            butt5.Enabled = true;
+            butt6.Enabled = true;
+            butt7.Enabled = true;
+            butt8.Enabled = true;
+            butt9.Enabled = true;
+            button2.BackColor = Color.White;
+            button2.Enabled = true;
+            butt1.BackColor = Color.Teal;
+            butt2.BackColor = Color.Teal;
+            butt3.BackColor = Color.Teal;
+            butt4.BackColor = Color.Teal;
+            butt5.BackColor = Color.Teal;
+            butt6.BackColor = Color.Teal;
+            butt7.BackColor = Color.Teal;
+            butt8.BackColor = Color.Teal;
+            butt9.BackColor = Color.Teal;
+            button1.BackColor = Color.Silver;
+            button1.Enabled = false;
         }
     }
 }

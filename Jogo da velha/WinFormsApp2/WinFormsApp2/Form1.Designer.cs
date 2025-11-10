@@ -79,6 +79,7 @@
             n2.BackColor = Color.DarkRed;
             n2.Location = new Point(6, 50);
             n2.Name = "n2";
+            n2.PlaceholderText = "Player 2";
             n2.Size = new Size(188, 23);
             n2.TabIndex = 1;
             n2.TextChanged += nomezin2;
@@ -88,6 +89,7 @@
             n1.BackColor = Color.Blue;
             n1.Location = new Point(6, 21);
             n1.Name = "n1";
+            n1.PlaceholderText = "Player 1";
             n1.Size = new Size(188, 23);
             n1.TabIndex = 0;
             n1.TextChanged += nomezin1;
@@ -217,10 +219,12 @@
             button1.TabIndex = 2;
             button1.Text = "Iniciar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.BackColor = SystemColors.Window;
+            button2.BackColor = Color.Silver;
+            button2.Enabled = false;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.ForeColor = Color.Teal;
@@ -248,7 +252,8 @@
             // 
             // butt1
             // 
-            butt1.BackColor = Color.Teal;
+            butt1.BackColor = Color.DarkSlateGray;
+            butt1.Enabled = false;
             butt1.FlatAppearance.BorderSize = 0;
             butt1.FlatStyle = FlatStyle.Flat;
             butt1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -262,7 +267,8 @@
             // 
             // butt7
             // 
-            butt7.BackColor = Color.Teal;
+            butt7.BackColor = Color.DarkSlateGray;
+            butt7.Enabled = false;
             butt7.FlatAppearance.BorderSize = 0;
             butt7.FlatStyle = FlatStyle.Flat;
             butt7.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -276,7 +282,8 @@
             // 
             // butt4
             // 
-            butt4.BackColor = Color.Teal;
+            butt4.BackColor = Color.DarkSlateGray;
+            butt4.Enabled = false;
             butt4.FlatAppearance.BorderSize = 0;
             butt4.FlatStyle = FlatStyle.Flat;
             butt4.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -290,7 +297,8 @@
             // 
             // butt9
             // 
-            butt9.BackColor = Color.Teal;
+            butt9.BackColor = Color.DarkSlateGray;
+            butt9.Enabled = false;
             butt9.FlatAppearance.BorderSize = 0;
             butt9.FlatStyle = FlatStyle.Flat;
             butt9.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -304,7 +312,8 @@
             // 
             // butt6
             // 
-            butt6.BackColor = Color.Teal;
+            butt6.BackColor = Color.DarkSlateGray;
+            butt6.Enabled = false;
             butt6.FlatAppearance.BorderSize = 0;
             butt6.FlatStyle = FlatStyle.Flat;
             butt6.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -318,7 +327,8 @@
             // 
             // butt3
             // 
-            butt3.BackColor = Color.Teal;
+            butt3.BackColor = Color.DarkSlateGray;
+            butt3.Enabled = false;
             butt3.FlatAppearance.BorderSize = 0;
             butt3.FlatStyle = FlatStyle.Flat;
             butt3.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -332,7 +342,8 @@
             // 
             // butt2
             // 
-            butt2.BackColor = Color.Teal;
+            butt2.BackColor = Color.DarkSlateGray;
+            butt2.Enabled = false;
             butt2.FlatAppearance.BorderSize = 0;
             butt2.FlatStyle = FlatStyle.Flat;
             butt2.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -346,7 +357,8 @@
             // 
             // butt5
             // 
-            butt5.BackColor = Color.Teal;
+            butt5.BackColor = Color.DarkSlateGray;
+            butt5.Enabled = false;
             butt5.FlatAppearance.BorderSize = 0;
             butt5.FlatStyle = FlatStyle.Flat;
             butt5.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
@@ -360,7 +372,8 @@
             // 
             // butt8
             // 
-            butt8.BackColor = Color.Teal;
+            butt8.BackColor = Color.DarkSlateGray;
+            butt8.Enabled = false;
             butt8.FlatAppearance.BorderSize = 0;
             butt8.FlatStyle = FlatStyle.Flat;
             butt8.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
