@@ -55,6 +55,9 @@
             butt5 = new Button();
             butt8 = new Button();
             richTextBox1 = new RichTextBox();
+            solo = new Button();
+            Normal = new Button();
+            Hard = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -144,7 +147,7 @@
             // pontos1
             // 
             pontos1.AutoSize = true;
-            pontos1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            pontos1.Font = new Font("Leelawadee UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             pontos1.Location = new Point(13, 40);
             pontos1.Name = "pontos1";
             pontos1.Size = new Size(32, 37);
@@ -209,7 +212,8 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.Window;
+            button1.BackColor = Color.Silver;
+            button1.Enabled = false;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.Teal;
@@ -394,12 +398,59 @@
             richTextBox1.TabIndex = 15;
             richTextBox1.Text = "";
             // 
+            // solo
+            // 
+            solo.BackColor = Color.White;
+            solo.FlatAppearance.BorderSize = 0;
+            solo.FlatStyle = FlatStyle.Popup;
+            solo.ForeColor = Color.Teal;
+            solo.Location = new Point(18, 189);
+            solo.Name = "solo";
+            solo.Size = new Size(106, 30);
+            solo.TabIndex = 33;
+            solo.Text = "Jogar solo";
+            solo.UseVisualStyleBackColor = false;
+            solo.Click += solo_Click;
+            // 
+            // Normal
+            // 
+            Normal.BackColor = Color.White;
+            Normal.FlatAppearance.BorderSize = 0;
+            Normal.FlatStyle = FlatStyle.Popup;
+            Normal.ForeColor = Color.Teal;
+            Normal.Location = new Point(18, 245);
+            Normal.Name = "Normal";
+            Normal.Size = new Size(106, 30);
+            Normal.TabIndex = 34;
+            Normal.Text = "Modo normal";
+            Normal.UseVisualStyleBackColor = false;
+            Normal.Visible = false;
+            Normal.Click += Normal_Click;
+            // 
+            // Hard
+            // 
+            Hard.BackColor = Color.White;
+            Hard.FlatAppearance.BorderSize = 0;
+            Hard.FlatStyle = FlatStyle.Popup;
+            Hard.ForeColor = Color.Teal;
+            Hard.Location = new Point(18, 281);
+            Hard.Name = "Hard";
+            Hard.Size = new Size(106, 30);
+            Hard.TabIndex = 35;
+            Hard.Text = "Modo difícil";
+            Hard.UseVisualStyleBackColor = false;
+            Hard.Visible = false;
+            Hard.Click += Hard_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
             ClientSize = new Size(581, 365);
+            Controls.Add(Hard);
+            Controls.Add(Normal);
+            Controls.Add(solo);
             Controls.Add(butt8);
             Controls.Add(butt5);
             Controls.Add(butt2);
@@ -460,5 +511,8 @@
         private Label pontos1;
         private Label op1;
         private Label op2;
+        private Button solo;
+        private Button Normal;
+        private Button Hard;
     }
 }
