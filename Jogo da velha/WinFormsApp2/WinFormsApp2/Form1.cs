@@ -15,6 +15,7 @@ namespace WinFormsApp2
         int pt1 = 0;
         int pt2 = 0;
         int impate = 0;
+        int cor = 0;
         string teste = "";
 
 
@@ -74,12 +75,28 @@ namespace WinFormsApp2
                 butt1.Text = "O";
                 xix = 1;
                 win = 1;
+                if (cor == 1)
+                {
+                    butt1.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt1.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt1.Text == "")
             {
                 butt1.Text = "X";
                 xix = 0;
                 win = 0;
+                if (cor == 2)
+                {
+                    butt1.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt1.ForeColor = Color.DarkRed;
+                }
 
             }
             VerificarVencedor();
@@ -92,12 +109,28 @@ namespace WinFormsApp2
                 butt2.Text = "O";
                 xix = 1;
                 win2 = 1;
+                if (cor == 1)
+                {
+                    butt2.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt2.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt2.Text == "")
             {
                 butt2.Text = "X";
                 xix = 0;
                 win2 = 0;
+                if (cor == 2)
+                {
+                    butt2.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt2.ForeColor = Color.DarkRed;
+                }
 
             }
             VerificarVencedor();
@@ -110,12 +143,28 @@ namespace WinFormsApp2
                 butt3.Text = "O";
                 xix = 1;
                 win3 = 1;
+                if (cor == 1)
+                {
+                    butt3.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt3.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt3.Text == "")
             {
                 butt3.Text = "X";
                 xix = 0;
                 win3 = 0;
+                if (cor == 2)
+                {
+                    butt3.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt3.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -127,13 +176,28 @@ namespace WinFormsApp2
                 butt4.Text = "O";
                 xix = 1;
                 win4 = 1;
+                if (cor == 1)
+                {
+                    butt4.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt4.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt4.Text == "")
             {
                 butt4.Text = "X";
                 xix = 0;
                 win4 = 0;
-
+                if (cor == 2)
+                {
+                    butt4.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt4.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -145,12 +209,28 @@ namespace WinFormsApp2
                 butt5.Text = "O";
                 xix = 1;
                 win5 = 1;
+                if (cor == 1)
+                {
+                    butt5.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt5.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt5.Text == "")
             {
                 butt5.Text = "X";
                 xix = 0;
                 win5 = 0;
+                if (cor == 2)
+                {
+                    butt5.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt5.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -162,12 +242,28 @@ namespace WinFormsApp2
                 butt6.Text = "O";
                 xix = 1;
                 win6 = 1;
+                if (cor == 1)
+                {
+                    butt6.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt6.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt6.Text == "")
             {
                 butt6.Text = "X";
                 xix = 0;
                 win6 = 0;
+                if (cor == 2)
+                {
+                    butt6.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt6.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -179,12 +275,28 @@ namespace WinFormsApp2
                 butt7.Text = "O";
                 xix = 1;
                 win7 = 1;
+                if (cor == 1)
+                {
+                    butt7.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt7.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt7.Text == "")
             {
                 butt7.Text = "X";
                 xix = 0;
                 win7 = 0;
+                if (cor == 2)
+                {
+                    butt7.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt7.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -196,12 +308,28 @@ namespace WinFormsApp2
                 butt8.Text = "O";
                 xix = 1;
                 win8 = 1;
+                if (cor == 1)
+                {
+                    butt8.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt8.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt8.Text == "")
             {
                 butt8.Text = "X";
                 xix = 0;
                 win8 = 0;
+                if (cor == 2)
+                {
+                    butt8.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt8.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -213,12 +341,28 @@ namespace WinFormsApp2
                 butt9.Text = "O";
                 xix = 1;
                 win9 = 1;
+                if (cor == 1)
+                {
+                    butt9.ForeColor = Color.Blue;
+                }
+                if (cor == 2)
+                {
+                    butt9.ForeColor = Color.DarkRed;
+                }
             }
             if (xix == 1 && butt9.Text == "")
             {
                 butt9.Text = "X";
                 xix = 0;
                 win9 = 0;
+                if (cor == 2)
+                {
+                    butt9.ForeColor = Color.Blue;
+                }
+                if (cor == 1)
+                {
+                    butt9.ForeColor = Color.DarkRed;
+                }
             }
             VerificarVencedor();
         }
@@ -347,12 +491,15 @@ namespace WinFormsApp2
             butt1.Text = "";
             butt2.Text = "";
             butt3.Text = "";
-            butt4.Text = "";
+            butt4.Text = ""; 
             butt5.Text = "";
             butt6.Text = "";
             butt7.Text = "";
             butt8.Text = "";
             butt9.Text = "";
+            impate = 0;
+            pt1 = 0;
+            pt2 = 0;
             xix = 0;
         }
 
@@ -363,30 +510,36 @@ namespace WinFormsApp2
 
         private void bolinha(object sender, EventArgs e)
         {
-            if (op2.BackColor == Color.Blue)
+            if (op2.ForeColor == Color.Blue)
             {
-                op1.BackColor = Color.DarkRed;
+                op1.ForeColor = Color.DarkRed;
+                cor = 1;
             }
-            if (op2.BackColor == Color.DarkRed)
+            if (op2.ForeColor == Color.DarkRed)
             {
-                op1.BackColor = Color.Blue;
+                op1.ForeColor = Color.Blue;
+                cor = 2;
             }
             else
-                op1.BackColor = Color.DarkRed;
+                op1.ForeColor = Color.DarkRed;
+            cor = 1;
         }
 
         private void X(object sender, EventArgs e)
         {
-            if (op1.BackColor == Color.Blue)
+            if (op1.ForeColor == Color.Blue)
             {
-                op2.BackColor = Color.DarkRed;
+                op2.ForeColor = Color.DarkRed;
+                cor = 2;
             }
-            if (op1.BackColor == Color.DarkRed)
+            if (op1.ForeColor == Color.DarkRed)
             {
-                op2.BackColor = Color.Blue;
+                op2.ForeColor = Color.Blue;
+                cor = 1;
             }
             else
-                op2.BackColor = Color.DarkRed;
+                op2.ForeColor = Color.DarkRed;
+            cor = 2;
         }
     }
 }
