@@ -1,3 +1,4 @@
+using System.Windows.Forms;
 using System.Xml;
 
 namespace WinFormsApp2
@@ -21,6 +22,7 @@ namespace WinFormsApp2
 
         int modosolo = 0;
         string teste = "";
+
 
 
 
@@ -83,7 +85,7 @@ namespace WinFormsApp2
                 xix = 1;
                 win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt1.ForeColor = Color.Blue;
@@ -92,6 +94,12 @@ namespace WinFormsApp2
                 {
                     butt1.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt1.Text == "")
             {
@@ -118,9 +126,9 @@ namespace WinFormsApp2
             {
                 butt2.Text = "O";
                 xix = 1;
-                win2 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt2.ForeColor = Color.Blue;
@@ -129,6 +137,12 @@ namespace WinFormsApp2
                 {
                     butt2.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt2.Text == "")
             {
@@ -155,9 +169,9 @@ namespace WinFormsApp2
             {
                 butt3.Text = "O";
                 xix = 1;
-                win3 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt3.ForeColor = Color.Blue;
@@ -166,6 +180,12 @@ namespace WinFormsApp2
                 {
                     butt3.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt3.Text == "")
             {
@@ -191,9 +211,9 @@ namespace WinFormsApp2
             {
                 butt4.Text = "O";
                 xix = 1;
-                win4 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt4.ForeColor = Color.Blue;
@@ -202,6 +222,12 @@ namespace WinFormsApp2
                 {
                     butt4.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt4.Text == "")
             {
@@ -227,9 +253,9 @@ namespace WinFormsApp2
             {
                 butt5.Text = "O";
                 xix = 1;
-                win5 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt5.ForeColor = Color.Blue;
@@ -238,6 +264,12 @@ namespace WinFormsApp2
                 {
                     butt5.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt5.Text == "")
             {
@@ -263,9 +295,9 @@ namespace WinFormsApp2
             {
                 butt6.Text = "O";
                 xix = 1;
-                win6 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt6.ForeColor = Color.Blue;
@@ -274,6 +306,12 @@ namespace WinFormsApp2
                 {
                     butt6.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt6.Text == "")
             {
@@ -299,9 +337,9 @@ namespace WinFormsApp2
             {
                 butt7.Text = "O";
                 xix = 1;
-                win7 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt7.ForeColor = Color.Blue;
@@ -310,6 +348,12 @@ namespace WinFormsApp2
                 {
                     butt7.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt7.Text == "")
             {
@@ -335,9 +379,9 @@ namespace WinFormsApp2
             {
                 butt8.Text = "O";
                 xix = 1;
-                win8 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt8.ForeColor = Color.Blue;
@@ -346,6 +390,12 @@ namespace WinFormsApp2
                 {
                     butt8.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt8.Text == "")
             {
@@ -371,9 +421,9 @@ namespace WinFormsApp2
             {
                 butt9.Text = "O";
                 xix = 1;
-                win9 = 1;
+                win = 1;
                 comecou();
-                bot();
+
                 if (cor == 1)
                 {
                     butt9.ForeColor = Color.Blue;
@@ -382,6 +432,12 @@ namespace WinFormsApp2
                 {
                     butt9.ForeColor = Color.DarkRed;
                 }
+
+                if (modosolo == 1)
+                {
+                    bot();
+                }
+
             }
             if (xix == 1 && butt9.Text == "")
             {
@@ -430,9 +486,6 @@ namespace WinFormsApp2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pontos1.Text = "0";
-            pontos2.Text = "0";
-            empate.Text = "0";
             butt1.Text = "";
             butt2.Text = "";
             butt3.Text = "";
@@ -442,9 +495,6 @@ namespace WinFormsApp2
             butt7.Text = "";
             butt8.Text = "";
             butt9.Text = "";
-            impate = 0;
-            pt1 = 0;
-            pt2 = 0;
             button2.Enabled = false;
             button2.BackColor = Color.Silver;
         }
@@ -662,12 +712,10 @@ namespace WinFormsApp2
             modosolo = 1;
             n2.Enabled = false;
             player2.Text = "Bot";
-            Normal.Visible = true;
-            Hard.Visible = true;
             op1.ForeColor = Color.Blue;
             op2.ForeColor = Color.DarkRed;
-            button1.Enabled = false;
-            button1.BackColor = Color.Silver;
+            button1.Enabled = true;
+            button1.BackColor = Color.White;
             solo.Enabled = false;
             solo.BackColor = Color.Silver;
             cor = 1;
@@ -764,63 +812,33 @@ namespace WinFormsApp2
         }
         private void bot()
         {
-                Random random = new Random();
-                int numeroAleatorio = random.Next(0,9);
-            if (numeroAleatorio == 0 && butt1.Text == "")
-            {
-                butt1.Text = "X";
-                butt1.ForeColor = Color.DarkRed;
-                xix = 0;
-            }
-                if (numeroAleatorio == 1 && butt2.Text == "")
-                {
-                    butt2.Text = "X";
-                    butt2.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
-            if (numeroAleatorio == 2 && butt3.Text == "")
-                {
-                    butt3.Text = "X";
-                    butt3.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
+            Random random = new Random();
 
-                if (numeroAleatorio == 3 && butt4.Text == "")
+            int tentativas = 0;
+            bool jogou = false;
+
+            while (!jogou && tentativas < 10)
+            {
+                tentativas++;
+                int numeroAleatorio = random.Next(0, 9);
+
+                Button[] botoes = { butt1, butt2, butt3, butt4, butt5, butt6, butt7, butt8, butt9 };
+
+                if (botoes[numeroAleatorio].Text == "")
                 {
-                    butt4.Text = "X";
-                    butt4.ForeColor = Color.DarkRed;
+                    botoes[numeroAleatorio].Text = "X";
+                    botoes[numeroAleatorio].ForeColor = Color.DarkRed;
                     xix = 0;
+                    jogou = true;
                 }
-                if (numeroAleatorio == 4 && butt5.Text == "")
-                {
-                    butt5.Text = "X";
-                    butt5.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
-                if (numeroAleatorio == 5 && butt6.Text == "")
-                {
-                    butt6.Text = "X";
-                    butt6.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
-                if (numeroAleatorio == 6 && butt7.Text == "")
-                {
-                    butt7.Text = "X";
-                    butt7.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
-                if (numeroAleatorio == 7 && butt8.Text == "")
-                {
-                    butt8.Text = "X";
-                    butt8.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
-                if (numeroAleatorio == 8 && butt9.Text == "")
-                {
-                    butt9.Text = "X";
-                    butt9.ForeColor = Color.DarkRed;
-                    xix = 0;
-                }
+            }
+
+            VerificarVencedor();
+        }
+
+        private void pontos1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
