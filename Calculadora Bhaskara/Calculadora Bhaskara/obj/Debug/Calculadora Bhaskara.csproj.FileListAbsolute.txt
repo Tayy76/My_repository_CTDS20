@@ -1,0 +1,11 @@
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\bin\Debug\Calculadora Bhaskara.exe.config
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\bin\Debug\Calculadora Bhaskara.exe
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\bin\Debug\Calculadora Bhaskara.pdb
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora Bhaskara.csproj.AssemblyReference.cache
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora Bhaskara.csproj.SuggestedBindingRedirects.cache
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora_Bhaskara.Form1.resources
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora_Bhaskara.Properties.Resources.resources
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora Bhaskara.csproj.GenerateResource.cache
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora Bhaskara.csproj.CoreCompileInputs.cache
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora Bhaskara.exe
+D:\DANIELCTDS15\Bruno Manzoli\Calculadora Bhaskara\Calculadora Bhaskara\obj\Debug\Calculadora Bhaskara.pdb
